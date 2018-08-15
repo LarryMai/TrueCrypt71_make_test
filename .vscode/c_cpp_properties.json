@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}/pkcs11",
+                "${workspaceFolder}/wxWidgets-2.8.11",
+                "${workspaceFolder}/truecrypt-7.1a-source/**"
+            ],
+            "defines": [
+                "TC_LINUX","TC_UNIX",
+                "wxUSE_CMDLINE_PARSER", "UNICODE"
+                ,"TC_AES_HW_CPU"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
