@@ -5,9 +5,9 @@
     "tasks": [
         {
             "label": "Truecrypt build by make",
-            "command": "${workspaceFolder}/buildScript.sh",
+            "command": "${workspaceFolder}/truecrypt/buildScript.sh",
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "${workspaceFolder}/truecrypt/"
             },
             "problemMatcher": [
                 "$gcc"
